@@ -1,0 +1,10 @@
+.main-container,
+.wrapper {
+    width: 100%;
+    display: flex;
+}
+
+
+.content {
+    margin: 20px 40px;
+}

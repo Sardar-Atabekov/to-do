@@ -1,0 +1,12 @@
+.header {
+    color: #ffff;
+    font-size: 32px;
+    line-height: 37px;
+    padding: 10px 40px;
+    background: #000000;
+}
+
+.header a {
+    text-decoration: none;
+    color: #ffff;
+}
