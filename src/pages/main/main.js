@@ -1,15 +1,13 @@
 import React, { useEffect, useState } from "react";
-import { getDataNoToken, deleteData } from "../../functions/requests";
+import { getDataNoToken } from "../../functions/requests";
 import { taskStatus } from "../../constants/status";
-import Alert, { confirmAlert, quitMessage } from "../../functions/alert";
+import { confirmAlert, quitMessage } from "../../functions/alert";
 import Loading from "../../components/loading/loading";
-import editIcon from "./../../assets/icons/editIcon.svg";
 import ReactPaginate from "react-paginate";
 import EditTaskBlock from "./edit-block";
 import { Link } from "react-router-dom";
 import SortBlock from "./sortBlock";
 import Checkbox from "./checkbox";
-import Swal from "sweetalert2";
 import "./main.css";
 
 const TasksPage = () => {
@@ -19,10 +17,6 @@ const TasksPage = () => {
   const [activePage, setActivePage] = useState(0);
   const [sortDirection, setSortDirection] = useState("ask");
   const [sortingOptions, setSortingOptions] = useState("username");
-
-  useEffect(() => {
-    getTasks();
-  }, [activePage, sortingOptions, sortDirection]);
 
   const getTasks = () => {
     getDataNoToken(
@@ -37,6 +31,12 @@ const TasksPage = () => {
         confirmAlert("Ошибка сервера. Напишите нам, мы всё починим.")
       );
   };
+  
+  useEffect(() => {
+    getTasks();
+  }, [activePage, sortingOptions, sortDirection]);
+
+  
 
   const handlePageClick = (data) => {
     const selected = data.selected + 1;

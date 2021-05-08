@@ -70,7 +70,7 @@ const EditTextBlock = ({ data, getTasks }) => {
           </div>
         </div>
       ) : (
-        <img src={editIcon} onClick={() => setEdit(true)} />
+        <img src={editIcon} onClick={() => setEdit(true)} alt="editImg"/>
       )}
     </div>
   );

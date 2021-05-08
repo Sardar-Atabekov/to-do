@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { postDataNoToken } from "../../functions/requests";
 import Alert, { confirmAlert } from "../../functions/alert";
 import "./create.css";
@@ -7,10 +7,6 @@ const CreateTaskPage = (props) => {
     const postTaskData = (e) => {
         e.preventDefault();
         let formData = new FormData(e.target);
-
-        // formData.forEach((value, key) => {
-        //     data[key] = value;
-        // });
 
         postDataNoToken("create?developer=Sardar", formData)
             .then((response) => {

@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import { postData } from "../../functions/requests";
 import Alert, { confirmAlert } from "../../functions/alert";
 
 const EditTextBlock = ({ data, getTasks }) => {
-  //   const [status, setStatus] = useState(data.status);
   const status = data.status === 0 ? false : data.status === 1 ? false : true;
   const handleClick = (e) => {
     let formData = new FormData(),
