@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Test_To-Do/static/css/main.11aa7b85.chunk.css",
+    "main.js": "/Test_To-Do/static/js/main.264a0c05.chunk.js",
+    "main.js.map": "/Test_To-Do/static/js/main.264a0c05.chunk.js.map",
+    "runtime-main.js": "/Test_To-Do/static/js/runtime-main.ccebef19.js",
+    "runtime-main.js.map": "/Test_To-Do/static/js/runtime-main.ccebef19.js.map",
+    "static/js/2.5707a4f0.chunk.js": "/Test_To-Do/static/js/2.5707a4f0.chunk.js",
+    "static/js/2.5707a4f0.chunk.js.map": "/Test_To-Do/static/js/2.5707a4f0.chunk.js.map",
+    "index.html": "/Test_To-Do/index.html",
+    "precache-manifest.7b995683e3ab6bff11dfdb867570e9d3.js": "/Test_To-Do/precache-manifest.7b995683e3ab6bff11dfdb867570e9d3.js",
+    "service-worker.js": "/Test_To-Do/service-worker.js",
+    "static/css/main.11aa7b85.chunk.css.map": "/Test_To-Do/static/css/main.11aa7b85.chunk.css.map",
+    "static/js/2.5707a4f0.chunk.js.LICENSE.txt": "/Test_To-Do/static/js/2.5707a4f0.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/Test_To-Do/static/media/red.0ca81624.svg",
+    "static/media/editIcon.svg": "/Test_To-Do/static/media/editIcon.f19a6f3e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ccebef19.js",
+    "static/js/2.5707a4f0.chunk.js",
+    "static/css/main.11aa7b85.chunk.css",
+    "static/js/main.264a0c05.chunk.js"
+  ]
+}
