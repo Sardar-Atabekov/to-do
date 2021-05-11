@@ -17,7 +17,7 @@
   "homepage": "https://Sardar-Atabekov.github.io/Test_To-Do",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "ph-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
