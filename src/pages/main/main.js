@@ -52,7 +52,7 @@ const TasksPage = () => {
         Можно сделать добавление задачи на этой странице с помощью модалки 
         Все же, мне кажется лучше сделать на отдельной странице
         */}
-        <Link to={`/create-task/`} className="add-btn btn">
+        <Link to={`/Test_To-Do/create-task/`} className="add-btn btn">
           Создать
         </Link>
         {localStorage.getItem("tokenData") ? (
@@ -60,7 +60,7 @@ const TasksPage = () => {
             Выйти
           </button>
         ) : (
-          <Link to={`/login/`} className="login-btn btn">
+          <Link to={`/Test_To-Do/login/`} className="login-btn btn">
             Авторизация
           </Link>
         )}

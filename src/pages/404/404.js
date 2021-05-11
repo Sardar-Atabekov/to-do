@@ -15,7 +15,7 @@ class NotFound extends Component {
               4
             </h1> */}
             <p className="nf_p">Страница в процессе разработки...</p>
-            <Link to="/">
+            <Link to="/Test_To-Do/">
               <button className="nf_button">На главную</button>
             </Link>
           </div>

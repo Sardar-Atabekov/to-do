@@ -26,7 +26,7 @@ function confirmAlert(title) {
   }).then((result) => {
     if (result.value) {
       setTimeout(() => {
-        window.location.href = "/";
+        window.location.href = "/Test_To-Do/";
       }, 1000);
     }
   });
@@ -44,7 +44,7 @@ const quitMessage = () => {
   }).then((result) => {
     if (result.value) {
       localStorage.removeItem("tokenData");
-      window.location.href = "/";
+      window.location.href = "/Test_To-Do/";
     }
   });
 };

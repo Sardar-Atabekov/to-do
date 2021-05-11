@@ -13,7 +13,7 @@ const CreateTaskPage = (props) => {
                 console.log("response", response);
                 if (response.status === 'ok') {
                     Alert("Задача добавлена");
-                    setTimeout(() => props.history.push(`/`), 1400);
+                    setTimeout(() => props.history.push(`/Test_To-Do/`), 1400);
                 } else {
                     Alert('Правильно заполните данные', "error");
                 }

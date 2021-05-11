@@ -20,7 +20,7 @@ const CreateTaskPage = (props) => {
         if (response.status === "ok") {
           Alert("Добро пожаловать");
           localStorage.setItem("tokenData", JSON.stringify(response.message));
-          setTimeout(() => props.history.push(`/`), 1400);
+          setTimeout(() => props.history.push(`/Test_To-Do/`), 1400);
         } else {
           //   Alert("Неправильный логин или пароль", "error");
           //   setErrorText("Неправильный логин или пароль");
