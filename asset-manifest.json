@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/Test_To-Do/static/css/main.11aa7b85.chunk.css",
-    "main.js": "/Test_To-Do/static/js/main.264a0c05.chunk.js",
-    "main.js.map": "/Test_To-Do/static/js/main.264a0c05.chunk.js.map",
-    "runtime-main.js": "/Test_To-Do/static/js/runtime-main.ccebef19.js",
-    "runtime-main.js.map": "/Test_To-Do/static/js/runtime-main.ccebef19.js.map",
-    "static/js/2.5707a4f0.chunk.js": "/Test_To-Do/static/js/2.5707a4f0.chunk.js",
-    "static/js/2.5707a4f0.chunk.js.map": "/Test_To-Do/static/js/2.5707a4f0.chunk.js.map",
-    "index.html": "/Test_To-Do/index.html",
-    "precache-manifest.7b995683e3ab6bff11dfdb867570e9d3.js": "/Test_To-Do/precache-manifest.7b995683e3ab6bff11dfdb867570e9d3.js",
-    "service-worker.js": "/Test_To-Do/service-worker.js",
-    "static/css/main.11aa7b85.chunk.css.map": "/Test_To-Do/static/css/main.11aa7b85.chunk.css.map",
-    "static/js/2.5707a4f0.chunk.js.LICENSE.txt": "/Test_To-Do/static/js/2.5707a4f0.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/Test_To-Do/static/media/red.0ca81624.svg",
-    "static/media/editIcon.svg": "/Test_To-Do/static/media/editIcon.f19a6f3e.svg"
+    "main.css": "/to-do/static/css/main.5bff57cd.chunk.css",
+    "main.js": "/to-do/static/js/main.7b1f7401.chunk.js",
+    "main.js.map": "/to-do/static/js/main.7b1f7401.chunk.js.map",
+    "runtime-main.js": "/to-do/static/js/runtime-main.f8df4fae.js",
+    "runtime-main.js.map": "/to-do/static/js/runtime-main.f8df4fae.js.map",
+    "static/js/2.5707a4f0.chunk.js": "/to-do/static/js/2.5707a4f0.chunk.js",
+    "static/js/2.5707a4f0.chunk.js.map": "/to-do/static/js/2.5707a4f0.chunk.js.map",
+    "index.html": "/to-do/index.html",
+    "precache-manifest.ab17ed6fbebe8835e77badd63cdda633.js": "/to-do/precache-manifest.ab17ed6fbebe8835e77badd63cdda633.js",
+    "service-worker.js": "/to-do/service-worker.js",
+    "static/css/main.5bff57cd.chunk.css.map": "/to-do/static/css/main.5bff57cd.chunk.css.map",
+    "static/js/2.5707a4f0.chunk.js.LICENSE.txt": "/to-do/static/js/2.5707a4f0.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/to-do/static/media/red.0ca81624.svg",
+    "static/media/editIcon.svg": "/to-do/static/media/editIcon.f19a6f3e.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ccebef19.js",
+    "static/js/runtime-main.f8df4fae.js",
     "static/js/2.5707a4f0.chunk.js",
-    "static/css/main.11aa7b85.chunk.css",
-    "static/js/main.264a0c05.chunk.js"
+    "static/css/main.5bff57cd.chunk.css",
+    "static/js/main.7b1f7401.chunk.js"
   ]
 }
