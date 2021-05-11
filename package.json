@@ -6,7 +6,6 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "gh-pages": "^3.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-paginate": "^7.1.2",
@@ -14,7 +13,7 @@
     "react-scripts": "^3.4.1",
     "sweetalert2": "^9.8.2"
   },
-  "homepage": "https://Sardar-Atabekov.github.io/Test_To-Do",
+  "homepage": "https://Sardar-Atabekov.github.io/to-do",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
@@ -37,5 +36,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }

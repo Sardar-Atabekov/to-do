@@ -12,9 +12,9 @@ function App() {
       <React.Fragment>
         <Header />
         <Switch>
-          <Route path="/Test_To-Do/" exact component={MainPage} />
-          <Route path="/Test_To-Do/login/" exact component={LoginPage} />
-          <Route path="/Test_To-Do/create-task/" exact component={CreatePage} />
+          <Route path="/to-do/" exact component={MainPage} />
+          <Route path="/to-do/login/" exact component={LoginPage} />
+          <Route path="/to-do/create-task/" exact component={CreatePage} />
           <Route path="*" exact component={NotFound} />
         </Switch>
       </React.Fragment>
