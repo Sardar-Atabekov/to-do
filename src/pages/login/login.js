@@ -41,6 +41,7 @@ const CreateTaskPage = (props) => {
             type="text"
             placeholder="Логин"
             name="username"
+            defaultValue="admin"
             required
           />
           <br />
@@ -48,6 +49,7 @@ const CreateTaskPage = (props) => {
             className="loginInput"
             type="password"
             placeholder="Пароль"
+            defaultValue="123"
             name="password"
             required
           />
